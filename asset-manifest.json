@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/wibe-studio-main/static/css/main.058fa616.css",
-    "main.js": "/wibe-studio-main/static/js/main.a52bf768.js",
-    "static/js/297.1071a1a7.chunk.js": "/wibe-studio-main/static/js/297.1071a1a7.chunk.js",
-    "static/js/208.b7d33303.chunk.js": "/wibe-studio-main/static/js/208.b7d33303.chunk.js",
-    "static/js/661.e98d0b64.chunk.js": "/wibe-studio-main/static/js/661.e98d0b64.chunk.js",
-    "static/media/code.mp4": "/wibe-studio-main/static/media/code.7d1ea6a94986d5c2a068.mp4",
-    "static/media/3.webp": "/wibe-studio-main/static/media/3.31ff0c67d2b215791014.webp",
-    "static/media/14.webp": "/wibe-studio-main/static/media/14.353d062ffd6151d94a06.webp",
-    "static/media/1.webp": "/wibe-studio-main/static/media/1.2bac198b231ebe0585be.webp",
-    "static/media/Process-opt.jpg": "/wibe-studio-main/static/media/Process-opt.d97cd87e346b81732407.jpg",
-    "static/media/2.webp": "/wibe-studio-main/static/media/2.f3d634f0fd129dc52100.webp",
-    "static/media/clarity.webp": "/wibe-studio-main/static/media/clarity.92111cbbc85f5788e993.webp",
-    "static/media/kaushan-script-all-400-normal.woff": "/wibe-studio-main/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
-    "static/media/sirin-stencil-all-400-normal.woff": "/wibe-studio-main/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
-    "static/media/kaushan-script-latin-400-normal.woff2": "/wibe-studio-main/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
-    "static/media/ERP.webp": "/wibe-studio-main/static/media/ERP.5979b4e83e7d080ee6fa.webp",
-    "static/media/sirin-stencil-latin-400-normal.woff2": "/wibe-studio-main/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
-    "static/media/kaushan-script-latin-ext-400-normal.woff2": "/wibe-studio-main/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
-    "index.html": "/wibe-studio-main/index.html",
-    "static/media/star_white_48dp.svg": "/wibe-studio-main/static/media/star_white_48dp.9f5e47114be2cec2001dc11839b001cb.svg"
+    "main.css": "/static/css/main.f24650de.css",
+    "main.js": "/static/js/main.4931dc49.js",
+    "static/js/297.cfcaaa32.chunk.js": "/static/js/297.cfcaaa32.chunk.js",
+    "static/js/208.b7d33303.chunk.js": "/static/js/208.b7d33303.chunk.js",
+    "static/js/661.e98d0b64.chunk.js": "/static/js/661.e98d0b64.chunk.js",
+    "static/media/code.mp4": "/static/media/code.7d1ea6a94986d5c2a068.mp4",
+    "static/media/3.webp": "/static/media/3.31ff0c67d2b215791014.webp",
+    "static/media/14.webp": "/static/media/14.353d062ffd6151d94a06.webp",
+    "static/media/1.webp": "/static/media/1.2bac198b231ebe0585be.webp",
+    "static/media/Process-opt.jpg": "/static/media/Process-opt.d97cd87e346b81732407.jpg",
+    "static/media/2.webp": "/static/media/2.f3d634f0fd129dc52100.webp",
+    "static/media/clarity.webp": "/static/media/clarity.92111cbbc85f5788e993.webp",
+    "static/media/kaushan-script-all-400-normal.woff": "/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
+    "static/media/sirin-stencil-all-400-normal.woff": "/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
+    "static/media/kaushan-script-latin-400-normal.woff2": "/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
+    "static/media/ERP.webp": "/static/media/ERP.5979b4e83e7d080ee6fa.webp",
+    "static/media/sirin-stencil-latin-400-normal.woff2": "/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
+    "static/media/kaushan-script-latin-ext-400-normal.woff2": "/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
+    "static/media/star_white_48dp.svg": "/static/media/star_white_48dp.9f5e47114be2cec2001dc11839b001cb.svg",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.058fa616.css",
-    "static/js/main.a52bf768.js"
+    "static/css/main.f24650de.css",
+    "static/js/main.4931dc49.js"
   ]
 }
