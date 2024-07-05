@@ -4,9 +4,9 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import React, {  useLayoutEffect, useRef } from 'react';
 import styled from 'styled-components';
 
-import img1 from '../assets/Images/11.webp';
-import img2 from '../assets/Images/12.webp';
-import img3 from '../assets/Images/13.webp';
+import Erp from '../assets/Images/ERP.webp';
+import Clarityimg from '../assets/Images/clarity.webp';
+import Processimg from '../assets/Images/Process-opt.jpg';
 import img4 from '../assets/Images/14.webp';
 
 const Section = styled.section`
@@ -145,11 +145,12 @@ const Item = styled.div`
     z-index: 5;
   }
 `;
-const Photos = ({ img, name }) => {
+const Photos = ({ img, name, desc }) => {
   return (
     <Item>
       <img width="400" height="600" src={img} alt={name} />
       <h2>{name}</h2>
+        <p>{desc}</p>
     </Item>
   );
 };
@@ -218,28 +219,28 @@ let t1= gsap.timeline();
       <Title
         data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
       >
-        New Arrivals
+        Solved Problems
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Photos img={img1} name="Denim" />
-        <Photos img={img2} name="Cool Dresses" />
-        <Photos img={img3} name="Jackets" />
-        <Photos img={img4} name="T-shirts" />
+        <Photos img={Erp} name="Custom ERP"  desc="Problem: Each SKU is divided into multiple SKUs, complicating storage, shipping, PO, and returns.
+Solution: We have developed ERP modules that automatically manage BUNDLE-locked SKUs, streamlining the entire process." />
+        <Photos img={Clarityimg} name="Operational Clarity" desc="Problem: Your set processes are at risk of breaking under stress, leading to productivity losses as growth brings its own challenges.
+Solution: We empower decision-making and prioritization mindsets, transforming processes to be completed in half the time, thus enhancing productivity and resilience." />
+        <Photos img={Processimg} name="finance optimization" desc="Problem: Businesses often overlook financial leakages, impacting the bottom line and causing team stress.
+Solution: We methodically instill financial responsibility, helping businesses focus on what truly drives success." />
+        {/*<Photos img={img4} name="Team growth" desc="Denim"  />*/}
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
-        There is new collection available for cool clothes in all sizes. This collection
-        is a great way to find a new look for you. It offers a variety of cool apparel
-        styles to fit your taste, while you can also find some cool clothes that you can
-        wear everyday.
+          we are a collective of dedicated individuals who thrive on overcoming challenges and delivering exceptional solutions. Each member of our team brings a unique set of skills and a relentless drive to tackle even the most complex issues. We approach every project with a commitment to excellence, ensuring that we not only meet but exceed our clients' expectations. Our dedication is evident in the meticulous attention to detail we apply to every task, and the innovative thinking we employ to find the best solutions.
         <br />
         <br />
-        The first line of clothing you will see on this collection is for men. The
-        collection also includes three new styles for women.
+          We understand that our clients entrust us with their most critical challenges,
+          and we take this responsibility to heart. Our approach is client-centric, meaning we tailor our strategies to meet the specific needs and goals of each client.
         <br />
         <br />
-        Give it a try and experience a new look.
+          At The Lynk Technology Consulting, we are not just solving problems; we are building lasting relationships and delivering peace of mind through our unwavering commitment to excellence
       </Text>
     </Section>
   );

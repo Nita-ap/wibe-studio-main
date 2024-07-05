@@ -95,7 +95,7 @@ const Logo = () => {
         </svg>
 
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Wibe Studio
+         The LYNK
         </Text>
       </Link>
     </Container>

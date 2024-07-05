@@ -140,13 +140,13 @@ const Navbar = () => {
         >
           <Link to="/">about</Link>
         </Item>
-        <Item
-          whileHover={{ scale: 1.1, y: -5 }}
-          whileTap={{ scale: 0.9, y: 0 }}
-          onClick={() => handleScroll('#shop')}
-        >
-          <Link to="/">shop</Link>
-        </Item>
+        {/*<Item*/}
+        {/*  whileHover={{ scale: 1.1, y: -5 }}*/}
+        {/*  whileTap={{ scale: 0.9, y: 0 }}*/}
+        {/*  onClick={() => handleScroll('#shop')}*/}
+        {/*>*/}
+        {/*  <Link to="/">shop</Link>*/}
+        {/*</Item>*/}
 
         <Item
           whileHover={{ scale: 1.1, y: -5 }}
@@ -154,7 +154,7 @@ const Navbar = () => {
           onClick={() => handleScroll('.new-arrival')}
         >
           {' '}
-          <Link to="/">new arrival</Link>
+          <Link to="/">Solved problems</Link>
         </Item>
       </MenuItems>
     </NavContainer>

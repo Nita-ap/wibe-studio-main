@@ -144,9 +144,7 @@ const About = () => {
         About Us
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We&apos;re fashion studio based in california. We create unique designs
-        that will blow your mind. We also design unique jewellary pieces.
-        Fashion is an ART that can not be grasped by everyone.
+          At The Lynk Technology Consulting, we believe in solving complex problems and providing clarity. We are a team of passionate problem solvers united by a shared purpose: to tackle challenges and deliver solutions. With a background in computer development and a wide array of roles ranging from CEO to CTO, we bring first-hand experience and diverse expertise to every project. Our mission is to create innovative solutions that make a difference, driven by our collective passion for problem-solving.
         <br />
         <br />
         We are very dedicated to making our products. We offer unique and
@@ -162,15 +160,15 @@ const About = () => {
 
       <Right>
         <img width="400" height="600" src={img1} alt="About Us" />
-        <img
-          width="400"
-          height="600"
-          className="small-img-1"
-          src={img2}
-          alt="About Us"
-          data-scroll
-          data-scroll-speed="5"
-        />
+        {/*<img*/}
+        {/*  width="400"*/}
+        {/*  height="600"*/}
+        {/*  className="small-img-1"*/}
+        {/*  src={img2}*/}
+        {/*  alt="About Us"*/}
+        {/*  data-scroll*/}
+        {/*  data-scroll-speed="5"*/}
+        {/*/>*/}
         <img
           width="400"
           height="600"

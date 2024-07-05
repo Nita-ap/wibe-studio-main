@@ -135,7 +135,7 @@ const Footer = () => {
           data-scroll-speed="2"
         />
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          The lynk
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -153,22 +153,22 @@ const Footer = () => {
           <li aria-hidden="true" onClick={() => handleScroll(".about")}>
             about
           </li>
-          <li aria-hidden="true" onClick={() => handleScroll("#shop")}>
-            shop
-          </li>
+          {/*<li aria-hidden="true" onClick={() => handleScroll("#shop")}>*/}
+          {/*  Projects*/}
+          {/*</li>*/}
           <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
-            new arrival
+           Solved Problems
           </li>
-          <li>
-            <a href="https://google.com" target={"_blank"} rel="noreferrer">
-              look book
-            </a>
-          </li>
-          <li>
-            <a href="https://google.com" target={"_blank"} rel="noreferrer">
-              reviews
-            </a>
-          </li>
+          {/*<li>*/}
+          {/*  <a href="https://google.com" target={"_blank"} rel="noreferrer">*/}
+          {/*    look book*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li>*/}
+          {/*  <a href="https://google.com" target={"_blank"} rel="noreferrer">*/}
+          {/*    reviews*/}
+          {/*  </a>*/}
+          {/*</li>*/}
         </ul>
         <Bottom>
           <span
@@ -176,7 +176,7 @@ const Footer = () => {
             data-scroll-speed="2"
             data-scroll-direction="horizontal"
           >
-            &copy; 2022. All Rights Reserved.
+            &copy; 2024. All Rights Reserved.
           </span>
           <span
             data-scroll
@@ -185,11 +185,11 @@ const Footer = () => {
           >
             Made with &hearts; by{" "}
             <a
-              href="http://devdreaming.com"
+              href="http://thelynk.tech"
               target={"_blank"}
               rel="dofollow noreferrer"
             >
-              CodeBucks
+              The LYNK
             </a>
           </span>
         </Bottom>
