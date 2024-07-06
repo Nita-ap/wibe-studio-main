@@ -227,7 +227,7 @@ let t1= gsap.timeline();
 Solution: We have developed ERP modules that automatically manage BUNDLE-locked SKUs, streamlining the entire process." />
         <Photos img={Clarityimg} name="Operational Clarity" desc="Problem: Your set processes are at risk of breaking under stress, leading to productivity losses as growth brings its own challenges.
 Solution: We empower decision-making and prioritization mindsets, transforming processes to be completed in half the time, thus enhancing productivity and resilience." />
-        <Photos img={Processimg} name="finance optimization" desc="Problem: Businesses often overlook financial leakages, impacting the bottom line and causing team stress.
+        <Photos img={Processimg} name="Finance Optimization" desc="Problem: Businesses often overlook financial leakages, impacting the bottom line and causing team stress.
 Solution: We methodically instill financial responsibility, helping businesses focus on what truly drives success." />
         {/*<Photos img={img4} name="Team growth" desc="Denim"  />*/}
       </Container>

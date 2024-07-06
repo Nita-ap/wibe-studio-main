@@ -32,6 +32,7 @@ const Container = styled.div`
     }
   }
 `;
+
 const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontlg};
   color: ${(props) => props.theme.text};
@@ -49,11 +50,12 @@ const pathVariants = {
 
     transition: {
       duration: 2,
-      delay: 3, // 0
+      delay: 3,
       ease: 'easeInOut',
     },
   },
 };
+
 const textVariants = {
   hidden: {
     opacity: 0,
@@ -65,7 +67,7 @@ const textVariants = {
 
     transition: {
       duration: 2,
-      delay: 5, // 2
+      delay: 5,
       ease: 'easeInOut',
     },
   },
@@ -73,32 +75,42 @@ const textVariants = {
 
 const Logo = () => {
   return (
-    <Container>
-      <Link to="/">
-        {/* <img src={star} alt="Wibe Fashion" /> */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          enableBackground="new 0 0 24 24"
-          height="48px"
-          viewBox="0 0 24 24"
-          width="48px"
-          fill="none"
-        >
-          <g>
+      <Container>
+        <Link to="/">
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#FFFFFF"
+              width="48px"
+              height="48px"
+              viewBox="0 0 48 48"
+              style={{ enableBackground: "new 0 0 48 48" }}
+              xmlSpace="preserve"
+          >
+            <path style={{ fill: "#0000" }} d="M0 0h48v48H0z" />
             <motion.path
-              variants={pathVariants}
-              initial="hidden"
-              animate="visible"
-              d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
-            />
-          </g>
-        </svg>
+                variants={pathVariants}
+                initial="hidden"
+                animate="visible"
+                d="M36 30c-.15 0-.298.012-.445.023l-6.144-13.965A5.975 5.975 0 0 0 31 12a6 6 0 1 0-12 0c0 1.104.303 2.135.824 3.024l-6.283 9.183A5.98 5.98 0 0 0 12 24a6 6 0 1 0 6 6 5.961 5.961 0 0 0-1.159-3.534l6.057-8.852A5.982 5.982 0 0 0 25 18c.294 0 .581-.028.864-.069l6.029 13.703A5.976 5.976 0 0 0 30 36a6 6 0 1 0 6-6z"
+                stroke="#FFFFFF"
+                strokeWidth="2"
+                fill="none"
+            >
+              <animate
+                  attributeName="stroke-dasharray"
+                  from="0,200"
+                  to="200,0"
+                  dur="2s"
+                  repeatCount="indefinite"
+              />
+            </motion.path>
+          </svg>
 
-        <Text variants={textVariants} initial="hidden" animate="visible">
-         The LYNK
-        </Text>
-      </Link>
-    </Container>
+          <Text variants={textVariants} initial="hidden" animate="visible">
+            The LYNK
+          </Text>
+        </Link>
+      </Container>
   );
 };
 
