@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.f24650de.css",
-    "main.js": "/static/js/main.4931dc49.js",
+    "main.js": "/static/js/main.c782f3c9.js",
     "static/js/297.cfcaaa32.chunk.js": "/static/js/297.cfcaaa32.chunk.js",
     "static/js/208.b7d33303.chunk.js": "/static/js/208.b7d33303.chunk.js",
-    "static/js/661.e98d0b64.chunk.js": "/static/js/661.e98d0b64.chunk.js",
+    "static/js/661.07c2cdc3.chunk.js": "/static/js/661.07c2cdc3.chunk.js",
     "static/media/code.mp4": "/static/media/code.7d1ea6a94986d5c2a068.mp4",
     "static/media/3.webp": "/static/media/3.31ff0c67d2b215791014.webp",
     "static/media/14.webp": "/static/media/14.353d062ffd6151d94a06.webp",
@@ -18,11 +18,11 @@
     "static/media/ERP.webp": "/static/media/ERP.5979b4e83e7d080ee6fa.webp",
     "static/media/sirin-stencil-latin-400-normal.woff2": "/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
     "static/media/kaushan-script-latin-ext-400-normal.woff2": "/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
-    "static/media/star_white_48dp.svg": "/static/media/star_white_48dp.9f5e47114be2cec2001dc11839b001cb.svg",
+    "static/media/star_white_48dp.svg": "/static/media/star_white_48dp.24d6b0b4ae1c0a80074893e6ead35112.svg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.f24650de.css",
-    "static/js/main.4931dc49.js"
+    "static/js/main.c782f3c9.js"
   ]
 }
